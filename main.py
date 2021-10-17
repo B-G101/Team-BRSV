@@ -45,13 +45,10 @@ def riya():
 @app.route('/sreeja/')
 def sreeja():
     return render_template("sreeja.html")
-@app.route('/game/')
-def game():
-    return render_template("game.html")
 @app.route('/valerie/')
 def valerie():
     return render_template("valerie.html")
-@app.route('/index/')
+@app.route('/')
 def index():
     return render_template("index.html")
 # connects /kangaroos path to render aboutus.html
