@@ -26,5 +26,5 @@ SONGS = [
     {"id":43406362,"name":"Your Song","photo":"https://placebear.com/335/456"},
     {"id":44428849,"name":"Hotel California","photo":"https://placebear.com/313/467"},
     {"id":60338818,"name":"London Calling","photo":"https://placebear.com/389/458"},
-    {"id":56249953,"name":"Sweet Child O'Mine","photo":"https://placebear.com/301/467"},
+    {"id":56249953,"name":"Sweet Child O'Mine","photo":"https://placebear.com/301/467"}
 ]
