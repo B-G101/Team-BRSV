@@ -90,6 +90,8 @@
 This minilab is all about guessing songs. Samples of songs from different genres will be played to participants, requiring them to select from a list of songs, one of which contains the correct answer. Different difficulties can be selected with various complicating factors, such as the nicheness of the artist, minor distortions to the song, or only shorter snippets being played. Alternatively, the auditory experience could be entirely foregone, and participants would have to guess the song and/or complete lyrics after only being given the lyrics in writing.
 ***
 ## Sprint 4 Week 7 and 8
+<a href="https://drive.google.com/file/d/1b3IU4ovYRj853ZNITcm8KrfcbadRtyVK/view?usp=sharing" target="_blank">Week 7 Video</a><br>
+
 <table id="sprint3">
 <tr>
 <tr>Week 7 and 8</tr>

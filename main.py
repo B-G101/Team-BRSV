@@ -45,19 +45,28 @@ def riya():
 @app.route('/sreeja/')
 def sreeja():
     return render_template("sreeja.html")
+@app.route('/game/')
+def game():
+    return render_template("game.html")
 @app.route('/valerie/')
 def valerie():
     return render_template("valerie.html")
-@app.route('/')
+@app.route('/index/')
 def index():
     return render_template("index.html")
 # connects /kangaroos path to render aboutus.html
 @app.route('/aboutus/')
 def aboutus():
     return render_template("aboutus.html")
-@app.route('/game/')
-def game():
-    return render_template("game.html")
+@app.route('/favorites/')
+def favorites():
+    return render_template("Favorites.html")
+@app.route('/Lifechangingsongs/')
+def lifechangingSongs():
+    return render_template("LifechangingSongs.html")
+@app.route('/Technicals/')
+def technicals():
+    return render_template("Technicals.html")
 @app.route('/stub/')
 def stub():
     return render_template("stub.html")
