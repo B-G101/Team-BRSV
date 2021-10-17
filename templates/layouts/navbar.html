@@ -18,8 +18,9 @@ This HTML is setup as a fragment allowing it to be "included" by other HTML file
         <div class="navbar-nav">
             <!-- url_for is a Jinja2 pre-processor that finds route from function name (def) -->
             <a class="nav-link" href={{ url_for('index') }}>Home</a>
-            <a class="nav-link" href={{ url_for('favorites') }}>favorites</a>
+            <a class="nav-link" href={{ url_for('favorites') }}>Favorites</a>
             <a class="nav-link" href={{ url_for('lifechangingSongs') }}>Lifechanging Songs!</a>
+            <a class="nav-link" href={{ url_for('starter.song') }}>Random Song Generator</a>
 
             <!-- stub is shown using the name of the route -->
             <li class="nav-item dropdown">

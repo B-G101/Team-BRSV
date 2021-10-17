@@ -99,7 +99,7 @@ def image_data(path=Path("flask_portfolio/static/img/"), images=None):  # path o
 
 # run this as standalone tester to see sample data printed in terminal
 if __name__ == "__main__":
-    local_path = Path("../flask_portfolio/static/img/")
+    local_path = Path("../../static/img/")
     images = image_data(local_path)  # path of local run
     for image in images:
         # print some details about the image so you can validate that it looks like it is working

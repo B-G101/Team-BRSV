@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, url_for, redirect
-from image import image_data
+from templates.technicals.image import image_data
 from pathlib import Path
 
 app = Flask(__name__)
@@ -11,7 +11,7 @@ app = Flask(__name__)
 @app.route('/rgb/')
 def rgb():
     path = Path(app.root_path) / "static" / "img"
-    return render_template('rgb.html', images=image_data(path))
+    return render_template('technicals/rgb.html', images=image_data(path))
     #return render_template('rgb.html', images=image_data(Path(app.root_path)))
 
 
@@ -41,7 +41,7 @@ def easy():
 
 @app.route('/bria/')
 def bria():
-    return render_template("bria.html")
+    return render_template("aboutus/bria.html")
 
 @app.route('/game/medium')
 def medium():
@@ -53,15 +53,15 @@ def hard():
 
 @app.route('/riya/')
 def riya():
-    return render_template("riya.html")
+    return render_template("aboutus/riya.html")
 
 @app.route('/sreeja/')
 def sreeja():
-    return render_template("sreeja.html")
+    return render_template("aboutus/sreeja.html")
 
 @app.route('/valerie/')
 def valerie():
-    return render_template("valerie.html")
+    return render_template("aboutus/valerie.html")
 
 @app.route('/')
 def index():
@@ -76,12 +76,12 @@ def aboutus():
 
 @app.route('/game/')
 def game():
-    return render_template("Favorites.html")
+    return render_template("favorites.html")
 
 
 @app.route('/stub/')
 def stub():
-    return render_template("stub.html")
+    return render_template("technicals/stub.html")
 
 @app.route('/minilabs/')
 def video():
@@ -93,9 +93,9 @@ def greet():
     if request.form:
         fname = request.form.get("fname")
         if len(fname) != 0:  # input field has content
-            return render_template("stub.html", fname=fname)
+            return render_template("technicals/stub.html", fname=fname)
         else:
-            return render_template("stub.html", fname="World")
+            return render_template("technicals/stub.html", fname="World")
 
 @app.route('/binary/', methods=['GET', 'POST'])
 def binary():
@@ -106,12 +106,12 @@ def binary():
         if pic == True:
             print("hi")
         if len(bits) != 0 and pic == True:  # input field has content
-            return render_template("binary.html", BITS=int(bits), imgBulbOn="/static/assets/harryalbum.jpg", imgBulbOff="static/assets/paris.jpg")
+            return render_template("technicals/binary.html", BITS=int(bits), imgBulbOn="/static/assets/harryalbum.jpg", imgBulbOff="static/assets/paris.jpg")
         elif len(bits) != 0 and pic == False:
-            return render_template("binary.html", BITS=int(bits), imgBulbOn="/static/assets/goodgoose.jpeg", imgBulbOff="/static/assets/goose.jpeg")
+            return render_template("technicals/binary.html", BITS=int(bits), imgBulbOn="/static/assets/goodgoose.jpeg", imgBulbOff="/static/assets/goose.jpeg")
         elif pic == True:
-            return render_template("binary.html", BITS=8, imgBulbOn="/static/assets/harryalbum.jpg", imgBulbOff="static/assets/paris.jpg")
-    return render_template("binary.html", BITS=8, imgBulbOn="/static/assets/goodgoose.jpeg", imgBulbOff="/static/assets/goose.jpeg")
+            return render_template("technicals/binary.html", BITS=8, imgBulbOn="/static/assets/harryalbum.jpg", imgBulbOff="static/assets/paris.jpg")
+    return render_template("technicals/binary.html", BITS=8, imgBulbOn="/static/assets/goodgoose.jpeg", imgBulbOff="/static/assets/goose.jpeg")
 
 
 # runs the application on the development server
