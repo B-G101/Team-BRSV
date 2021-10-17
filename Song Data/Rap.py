@@ -23,5 +23,5 @@ SONGS = [
     {"id":64664156,"name":"Purple Rain","photo":"https://placebear.com/364/491"},
     {"id":63841892,"name":"Torn","photo":"https://placebear.com/344/496"},
     {"id":80868139,"name":"Save Your Tears","photo":"https://placebear.com/389/475"},
-    {"id":22571419,"name":"Family Affair","photo":"https://placebear.com/304/464"},
+    {"id":22571419,"name":"Family Affair","photo":"https://placebear.com/304/464"}
 ]
