@@ -90,6 +90,70 @@
 This minilab is all about guessing songs. Samples of songs from different genres will be played to participants, requiring them to select from a list of songs, one of which contains the correct answer. Different difficulties can be selected with various complicating factors, such as the nicheness of the artist, minor distortions to the song, or only shorter snippets being played. Alternatively, the auditory experience could be entirely foregone, and participants would have to guess the song and/or complete lyrics after only being given the lyrics in writing.
 ***
 ## Sprint 4 Week 7 and 8
+<table id="sprint3">
+<tr>
+<tr>Week 8</tr>
+<th>Job</th>
+<th>Person Assigned</th>
+<th>Commits</th>
+</tr>
+
+<tr>
+<td>Scrum Master </td>
+<td>Riya</td>
+<td>
+<a href="https://github.com/B-G101/Team-BRS/projects/1" target="_blank">Link to Scrumboard with Issues</a><br>
+
+</td>
+</tr>
+<tr>
+<td>Designing and Coding Homepage </td>
+<td>Bria, Riya, and Sreeja</td>
+<td>
+<a href="https://github.com/B-G101/Team-BRSV/commit/4fc915d3a6b30cf962e6866a3a213a7f854928e9" target="_blank">Updated the Homepage and got rid of unnecessary extra tabs on the navbar</a><br>
+<a href="https://github.com/B-G101/Team-BRS/issues/94" target="_blank">beginnings of cc working</a><br>
+<a href="https://github.com/B-G101/Team-BRS/commit/92a9d01c1c7d8eb65a63e9528e7d1521b169c63b" target="_blank">color code working!</a><br>
+<a href="https://github.com/B-G101/Team-BRS/issues/91" target="_blank">Unicode</a><br>
+<a href="" target="_blank"></a><br>
+</td>
+</tr>
+
+<tr>
+<td>Designing and Coding Favorites Page </td>
+<td>Bria and Riya</td>
+<td>
+<a href="https://github.com/B-G101/Team-BRSV/commit/4fc915d3a6b30cf962e6866a3a213a7f854928e9" target="_blank">Added Javascript Onclick that plays our favorite songs</a><br>
+<a href="https://github.com/B-G101/Team-BRSV/commit/4fc915d3a6b30cf962e6866a3a213a7f854928e9" target="_blank">Added the Music Notes to the Website</a><br>
+<a href="https://www.canva.com/design/DAEovTqHJS0/M4gDVb7l_D1RwaTC58AZMw/edit" target="_blank">Created the Music Notes in Canva</a><br>
+<a href="https://github.com/B-G101/Team-BRS/issues/92" target="_blank">Logic Gates</a><br>
+<a href="" target="_blank"></a><br>
+</td>
+</tr>
+
+<tr>
+<td> Designing and Coding Random Generator Page</td>
+<td>Bria and Sreeja</td>
+<td>
+<a href="https://github.com/B-G101/Team-BRSV/commit/0989b24c2163d299465f5820e232e00e589c1349" target="_blank">Created random song generator from Python List</a><br>
+<a href="" target="_blank"></a><br>
+<a href="" target="_blank"></a><br>
+<a href="" target="_blank"></a><br>
+</td>
+</tr>
+
+<tr>
+<td> Designing and Coding Influence Songs Page</td>
+<td>Riya</td>
+<td>
+<a href="https://github.com/B-G101/Team-BRS/issues/90" target="_blank">Shift Done</a><br>
+<a href="" target="_blank"></a><br>
+<a href="" target="_blank"></a><br>
+<a href="" target="_blank"></a><br>
+</td>
+</tr>
+</table>
+
+
 <a href="https://drive.google.com/file/d/1b3IU4ovYRj853ZNITcm8KrfcbadRtyVK/view?usp=sharing" target="_blank">Week 7 Video</a><br>
 
 <table id="sprint3">
