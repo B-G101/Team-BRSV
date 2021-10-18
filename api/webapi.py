@@ -9,7 +9,7 @@ api_bp = Blueprint('api', __name__,
 
 songs = []
 song_list = [
-    "Before You Go",
+    {'name':"Before You Go", 'artist':"Lewis Capaldi", 'releaseYear':2019},
     "Toxic",
     "God’s Plan",
     "Firework",
