@@ -8,6 +8,46 @@
 
 
 {% block body %}
+    <script>
+        function play1() {
+            var audio = document.getElementById("audio");
+            audio.play();
+        }
+
+        function play2() {
+            var audio = document.getElementById("audi");
+            audio.play();
+        }
+
+        function play3() {
+            var audio = document.getElementById("aud");
+            audio.play();
+        }
+
+        function play4() {
+            var audio = document.getElementById("au");
+            audio.play();
+        }
+
+    </script>
+    <div>
+    <img src="/static/assets/10.png" id="img1" onclick="play1()" height="360" width="640">
+    <audio id="audio" src="/static/audio/new-edition-can-you-stand-the-rain-official-music-video-1_9ZGY4ByN.mp3" typeof="mpeg"></audio>
+    </div>
+
+    <div>
+    <img src="/static/assets/11.png" id="img2" onclick="play2()" height="360" width="640">
+    <audio id="audi" src="/static/audio/bcbc-be-together-official-track_dJJVzKV7.mp3" typeof="mpeg"></audio>
+    </div>
+
+    <div>
+    <img src="/static/assets/13.png" id="img3" onclick="play3()" height="360" width="640">
+    <audio id="aud" src="/static/audio/mia-bad-girls-official-video_5XGpOD7x.mp3" typeof="mpeg"></audio>
+    </div>
+
+    <div>
+    <img src="/static/assets/12.png" id="img4" onclick="play4()" height="360" width="640">
+        <audio id="au" src="/static/audio/epilogue-nothing-bout-me_FN3pXBZ7.mp3" typeof="mpeg"></audio>
     </div>
 
     <h1>Song Guesser</h1>
