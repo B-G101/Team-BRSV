@@ -112,6 +112,12 @@ This minilab is all about guessing songs. Samples of songs from different genres
 <td>
 <a href="https://github.com/B-G101/Team-BRSV/commit/4fc915d3a6b30cf962e6866a3a213a7f854928e9" target="_blank">Updated the Homepage and got rid of unnecessary extra tabs on the navbar</a><br>
 <a href="https://github.com/B-G101/Team-BRSV/commit/3605ff5380f1a88cd888614675349889f0dbe62a" target="_blank">cleaner nav bar</a><br>
+<a href="https://github.com/B-G101/Team-BRSV/commit/d2e73d198849b397f7ee97e0c03853dc027d0191" target="_blank">attempted implimentation of greyscale for album covers</a><br>
+<a href="https://github.com/B-G101/Team-BRSV/commit/5ba01df5ed1a898537462b36962ac26f8ea14bb9" target="_blank">edits in formats</a><br>
+<a href="https://github.com/B-G101/Team-BRSV/commit/750e49b22d1850604634d56c40c72cd8d01b5fe0" target="_blank">change of instructions</a><br>
+
+
+
 </td>
 </tr>
 
