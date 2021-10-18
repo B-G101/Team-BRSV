@@ -43,6 +43,38 @@
                 }
             </style>
         </head>
+        <script type = "text/javascript">
+            function gray(imgObj) {
+                var canvas = document.createElement('canvas');
+                var canvasContext = canvas.getContext('2d');
+
+                var imgW = imgObj.width;
+                var imgH = imgObj.height;
+                canvas.width = imgW;
+                canvas.height = imgH;
+
+                canvasContext.drawImage(imgObj, 0, 0);
+                var imgPixels = canvasContext.getImageData(0, 0, imgW, imgH);
+
+                for(var y = 0; y < imgPixels.height; y++){
+                    for(var x = 0; x < imgPixels.width; x++){
+                        var i = (y * 4) * imgPixels.width + x * 4;
+                        var avg = (imgPixels.data[i] + imgPixels.data[i + 1] + imgPixels.data[i + 2]) / 3;
+                        imgPixels.data[i] = avg;
+                        imgPixels.data[i + 1] = avg;
+                        imgPixels.data[i + 2] = avg;
+                    }
+                }
+                canvasContext.putImageData(imgPixels, 0, 0, 0, 0, imgPixels.width, imgPixels.height);
+                return canvas.toDataURL();
+            }
+            function toggleGrayScale() {
+                var allImages = document.getElementsByTagName('img');
+                for(var i = 0; i < allImages.length ; i++) {
+                    gray(allImages[i]);
+                }
+            }
+        </script>
     <body>
 
     <div class="gallery">
@@ -87,6 +119,10 @@
         </a>
     </div>
 
+    <div class="gallery">
+        <button class="button button4" onclick="toggleGrayScale()" name="ToggleGray">Gray Scale</button>
+    </div>
+
     </body>
     </html>
 
@@ -127,6 +163,22 @@
     <a class="button button2" href={{ url_for('lifechangingSongs') }}>Life Changing Songs</a>
     <a class="button button3" href={{ url_for('favorites') }}>Favorites</a>
 
+    <style>
+        .button {
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+        .button4 {background-color: #808080;}
+        .button4 {padding: 14px 40px; width: 98%}
+
+    </style>
 
     <form>
 
