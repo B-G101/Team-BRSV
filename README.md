@@ -135,7 +135,7 @@ This minilab is all about guessing songs. Samples of songs from different genres
 <td>Bria and Sreeja</td>
 <td>
 <a href="https://github.com/B-G101/Team-BRSV/commit/0989b24c2163d299465f5820e232e00e589c1349" target="_blank">Created random song generator from Python List</a><br>
-<a href="" target="_blank"></a><br>
+<a href="https://github.com/B-G101/Team-BRSV/commit/d05b83eb2f377a7f50db80ddfd184954d780825e" target="_blank">Updated Song List</a><br>
 <a href="" target="_blank"></a><br>
 <a href="" target="_blank"></a><br>
 </td>
