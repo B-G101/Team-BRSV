@@ -111,10 +111,7 @@ This minilab is all about guessing songs. Samples of songs from different genres
 <td>Bria, Riya, and Sreeja</td>
 <td>
 <a href="https://github.com/B-G101/Team-BRSV/commit/4fc915d3a6b30cf962e6866a3a213a7f854928e9" target="_blank">Updated the Homepage and got rid of unnecessary extra tabs on the navbar</a><br>
-<a href="https://github.com/B-G101/Team-BRS/issues/94" target="_blank">beginnings of cc working</a><br>
-<a href="https://github.com/B-G101/Team-BRS/commit/92a9d01c1c7d8eb65a63e9528e7d1521b169c63b" target="_blank">color code working!</a><br>
-<a href="https://github.com/B-G101/Team-BRS/issues/91" target="_blank">Unicode</a><br>
-<a href="" target="_blank"></a><br>
+<a href="https://github.com/B-G101/Team-BRSV/commit/3605ff5380f1a88cd888614675349889f0dbe62a" target="_blank">cleaner nav bar</a><br>
 </td>
 </tr>
 
@@ -125,7 +122,7 @@ This minilab is all about guessing songs. Samples of songs from different genres
 <a href="https://github.com/B-G101/Team-BRSV/commit/4fc915d3a6b30cf962e6866a3a213a7f854928e9" target="_blank">Added Javascript Onclick that plays our favorite songs</a><br>
 <a href="https://github.com/B-G101/Team-BRSV/commit/4fc915d3a6b30cf962e6866a3a213a7f854928e9" target="_blank">Added the Music Notes to the Website</a><br>
 <a href="https://www.canva.com/design/DAEovTqHJS0/M4gDVb7l_D1RwaTC58AZMw/edit" target="_blank">Created the Music Notes in Canva</a><br>
-<a href="https://github.com/B-G101/Team-BRS/issues/92" target="_blank">Logic Gates</a><br>
+<a href="https://github.com/B-G101/Team-BRSV/issues/10" target="_blank">Input Favorite song</a><br>
 <a href="" target="_blank"></a><br>
 </td>
 </tr>
@@ -145,7 +142,7 @@ This minilab is all about guessing songs. Samples of songs from different genres
 <td> Designing and Coding Influence Songs Page</td>
 <td>Riya</td>
 <td>
-<a href="https://github.com/B-G101/Team-BRS/issues/90" target="_blank">Shift Done</a><br>
+<a href="https://github.com/B-G101/Team-BRSV/issues/7" target="_blank">Slideshow on page implimented!</a><br>
 <a href="" target="_blank"></a><br>
 <a href="" target="_blank"></a><br>
 <a href="" target="_blank"></a><br>
