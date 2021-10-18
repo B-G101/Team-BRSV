@@ -15,11 +15,6 @@ def rgb():
     #return render_template('rgb.html', images=image_data(Path(app.root_path)))
 
 
-
-
-
-
-
 @app.route('/game/easy', methods=['GET', 'POST'])
 def easy():
     names = get_names(SONGS)

@@ -65,6 +65,15 @@ def aboutus():
 @app.route('/favorites/')
 def favorites():
     return render_template("favorites.html")
+@app.route('/favoriteSong', methods=['GET', 'POST'])
+def favoriteSong():
+    # submit button has been pushed
+    if request.form:
+        fname = request.form.get("fname")
+        if len(fname) != 0:  # input field has content
+            return render_template("Favorites.html", fname=fname)
+        else:
+            return render_template("Favorites.html", fname=" Try entering a song!")
 @app.route('/Lifechangingsongs/')
 def lifechangingSongs():
     return render_template("LifechangingSongs.html")

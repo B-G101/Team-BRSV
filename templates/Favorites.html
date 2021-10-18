@@ -8,6 +8,29 @@
 
 
 {% block body %}
+    <div class="w3-container">
+        <h1 class="w3-center w3-animate-right"> !</h1>
+    </div>
+    <!- Try building a new body here ->
+    <div class="center-block" style="margin: 2% 5% 5%; text-align:left; font-family: gilroy,serif;">
+
+        <div class="col-12">
+            <p>Your Favorite Song is, {{fname}}</p>
+        </div>
+
+        <div class="col-12">
+            <form action="/favoriteSong" id="favoriteSong" method="POST" >
+                <label for="fname">What's your favorite song? </label>
+                <input name="fname" id="fname">
+                <input type="submit" value="Click to enter your favorite Song">
+            </form>
+        </div>
+
+        <div class="col-12">
+            <img src="/static/assets/favsongs.png" alt="Python Flask" style="height: 400px" >
+        </div>
+
+    </div>
     <script>
         function play1() {
             var audio = document.getElementById("audio");
