@@ -67,7 +67,7 @@ def favorites():
     return render_template("favorites.html")
 @app.route('/favoriteSong', methods=['GET', 'POST'])
 def favoriteSong():
-    # submit button has been pushed
+    # changed greet function for favorites.htm;
     if request.form:
         fname = request.form.get("fname")
         if len(fname) != 0:  # input field has content
