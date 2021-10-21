@@ -110,17 +110,19 @@ This minilab is all about guessing songs. Samples of songs from different genres
 <td>Video: </td>
 <td>
 
+</td>
+</tr>
 <tr>
 <td> Sreeja </td>
 <td>Video: </td>
 <td>
 
-tr>
+</td>
+</tr>
+<tr>
 <td> Val </td>
 <td>Video: </td>
 <td>
-
-
 
 </td>
 </tr>
