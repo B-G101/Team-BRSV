@@ -89,6 +89,41 @@
 ##Ideation:
 This minilab is all about guessing songs. Samples of songs from different genres will be played to participants, requiring them to select from a list of songs, one of which contains the correct answer. Different difficulties can be selected with various complicating factors, such as the nicheness of the artist, minor distortions to the song, or only shorter snippets being played. Alternatively, the auditory experience could be entirely foregone, and participants would have to guess the song and/or complete lyrics after only being given the lyrics in writing.
 ***
+## Sprint 5 Week 9 and 10!
+<table id="sprint3">
+<tr>
+<tr>Week 9</tr>
+<th>Person</th>
+<th>Video</th>
+<th>Scores</th>
+</tr>
+
+<tr>
+<td>Riya </td>
+<td>Video: </td>
+<td>
+
+</td>
+</tr>
+<tr>
+<td> Bria </td>
+<td>Video: </td>
+<td>
+
+<tr>
+<td> Sreeja </td>
+<td>Video: </td>
+<td>
+
+tr>
+<td> Val </td>
+<td>Video: </td>
+<td>
+
+
+
+</td>
+</tr>
 ## Sprint 4 Week 7 and 8
 <table id="sprint3">
 <tr>

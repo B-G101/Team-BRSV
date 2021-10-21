@@ -112,6 +112,10 @@ def colorcode():
 def signedaddition():
     return render_template("technicals/binary (logic gates)/signedaddition.html")
 
+@app.route('/concerts/')
+def concerts():
+    return render_template("concerts.html")
+
 # runs the application on the development server
 if __name__ == "__main__":
     app.run(debug=True)
