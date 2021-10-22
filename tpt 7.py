@@ -1,4 +1,3 @@
-import
 
 
 student_list = ['pam','rob','joe','greg','bob','amy','matt']
