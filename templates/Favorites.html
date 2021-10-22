@@ -6,31 +6,35 @@
 {% set overview = "https://nighthawkcodingsociety.com/projectsearch/details/Flask%20Portfolio%20Starter" %}
 {% set repo = "https://github.com/nighthawkcoders/flask_portfolio/" %}
 
-<!- commit got rejected here, but I changed greet function below to fit song application, with new image ->
+
 {% block body %}
+
     <div class="w3-container">
-        <h1 class="w3-center w3-animate-right"> !</h1>
+        <h1 class="w3-center w3-animate-top">Our Favorite Songs!</h1>
     </div>
-    <!- Try building a new body here ->
+
     <div class="center-block" style="margin: 2% 5% 5%; text-align:left; font-family: gilroy,serif;">
 
         <div class="col-12">
-            <p>Your Favorite Song is, {{fname}}</p>
+            <h5>Your Favorite Song is, {{fname}}!</h5>
         </div>
 
         <div class="col-12">
             <form action="/favoriteSong" id="favoriteSong" method="POST" >
                 <label for="fname">What's your favorite song? </label>
                 <input name="fname" id="fname">
-                <input type="submit" value="Click to enter your favorite Song">
+                <input type="submit" value="Click to enter">
             </form>
         </div>
 
         <div class="col-12">
-            <img src="/static/assets/favsongs.png" alt="Python Flask" style="height: 400px" >
+            <img  src="/static/assets/favsongs.png" alt="Python Flask" style="height: 400px" class="center" >
         </div>
 
     </div>
+
+
+
     <script>
         function play1() {
             var audio = document.getElementById("audio");
@@ -53,31 +57,112 @@
         }
 
     </script>
-    <div>
-    <img src="/static/assets/10.png" id="img1" onclick="play1()" height="360" width="640">
-    <audio id="audio" src="/static/audio/new-edition-can-you-stand-the-rain-official-music-video-1_9ZGY4ByN.mp3" typeof="mpeg"></audio>
-    </div>
 
-    <div>
-    <img src="/static/assets/11.png" id="img2" onclick="play2()" height="360" width="640">
-    <audio id="audi" src="/static/audio/bcbc-be-together-official-track_dJJVzKV7.mp3" typeof="mpeg"></audio>
-    </div>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: auto auto;
+            padding: 10px;
+        }
+        .grid-item {
+            padding: 20px;
+            font-size: 30px;
+            text-align: center;
+        }
+        body {
+            text-align: center;
 
-    <div>
-    <img src="/static/assets/13.png" id="img3" onclick="play3()" height="360" width="640">
-    <audio id="aud" src="/static/audio/mia-bad-girls-official-video_5XGpOD7x.mp3" typeof="mpeg"></audio>
-    </div>
-
-    <div>
-    <img src="/static/assets/12.png" id="img4" onclick="play4()" height="360" width="640">
-        <audio id="au" src="/static/audio/epilogue-nothing-bout-me_FN3pXBZ7.mp3" typeof="mpeg"></audio>
-    </div>
-
-
+        }
+        h5,form{
+            text-align: center;
+        }
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
     </style>
+
+    <div class="grid-container">
+        <div class="grid-item">
+            <img src="/static/assets/10.png" id="img1" onclick="play1()" height="270" width="480">
+            <audio id="audio" src="/static/audio/new-edition-can-you-stand-the-rain-official-music-video-1_9ZGY4ByN.mp3" typeof="mpeg"></audio>
+        </div>
+
+        <div class="grid-item">
+            <img src="/static/assets/11.png" id="img2" onclick="play2()" height="270" width="480">
+            <audio id="audi" src="/static/audio/bcbc-be-together-official-track_dJJVzKV7.mp3" typeof="mpeg"></audio>
+        </div>
+
+        <div class="grid-item">
+            <img src="/static/assets/13.png" id="img3" onclick="play3()" height="270" width="480">
+            <audio id="aud" src="/static/audio/mia-bad-girls-official-video_5XGpOD7x.mp3" typeof="mpeg"></audio>
+        </div>
+
+        <div class="grid-item">
+            <img src="/static/assets/12.png" id="img4" onclick="play4()" height="270" width="480">
+            <audio id="au" src="/static/audio/epilogue-nothing-bout-me_FN3pXBZ7.mp3" typeof="mpeg"></audio>
+        </div>
+    </div>
+
+
+    <div>
+    <h3>Do we like your song?</h3>
+    <p>Note: Only type the name of the song with capitals</p>
+    </div>
+    <p hidden id="getMe">{{ gname }}</p>
+    <div class="col-12">
+        <form action="/songFavorite" id="songFavorite" method="POST" >
+            <label for="gname">Enter a song</label>
+            <input name="gname" id="gname">
+            <input type="submit" value="Click to enter">
+        </form>
+    </div>
+
+    <h3 id="changeMe"></h3>
+
+    <script>
+    const choice = document.getElementById("getMe").innerHTML;
+    const musics = ['Story Of My Life','Good 4 U', 'Deja Vu', 'Happier Than Ever'];
+    musics.forEach(function (eggFace);
+
+    function eggface (music, index, arr){
+       if (music === choice) {
+           greeting = "Lets goo"
+       }
+       else {
+           greeting = "no"
+       }
+    }
+    document.getElementById("changeMe").innerHTML = greeting;
+
+
+
+    //for (let i = 0; i < music.length; i++) {
+        //choice = document.getElementById("getMe").innerHTML;
+        //if (music[i] === choice) {
+            //console.log("yuh")
+          //  greeting = "Lets goo"
+        //} else {
+      //      greeting = "no"
+    //    }
+  //  }
+
+
+
+
+    //})
+
+    let ranks = ['A', 'B', 'C'];
+    for (let i = 0; i < ranks.length; i++) {
+        console.log(ranks[i]);
+    }
+
+    </script>
+
 {% endblock %}
 {% block background %}
 {% endblock %}
-
 
 </div>
