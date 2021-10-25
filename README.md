@@ -107,26 +107,28 @@ This minilab is all about guessing songs. Samples of songs from different genres
 </tr>
 <tr>
 <td> Bria </td>
-<td>Video: </td>
-<td>
+<td>Video: <a href="https://youtu.be/X2yNhHmokeo" target="_blank">Link</a></td>
+<td></td>
 
 </td>
 </tr>
 <tr>
 <td> Sreeja </td>
-<td>Video: </td>
+<td>Video: <a href="https://www.loom.com/embed/bbd128beb8bd4ea8b6a5362b4300ca12" target="_blank">Link</a> </td>
 <td>
 
 </td>
 </tr>
 <tr>
 <td> Val </td>
-<td>Video: </td>
+<td>Video: <a href="https://youtu.be/vJ9NhZnFfHA" target="_blank">Link</a> </td>
 <td>
 
 </td>
 </tr>
-## Sprint 4 Week 7 and 8
+
+##### Sprint 4 Week 7 and 8
+
 <table id="sprint3">
 <tr>
 <tr>Week 8</tr>
