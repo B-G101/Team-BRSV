@@ -1,6 +1,6 @@
 #Team BRS
-## [Scrum Board](https://github.com/B-G101/Team-BRS/projects/1)
-## [Github Repository](https://github.com/B-G101/Team-BRS)
+## [Scrum Board](https://github.com/B-G101/Team-BRSV/projects/1)
+## [Github Repository](https://github.com/B-G101/Team-BRSV)
 
 ***
 <table id="readmeinformation">
