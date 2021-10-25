@@ -20,6 +20,8 @@
 
         <!-- Commits not being processed again - but added this entire page of slideshow code -->
 
+
+
     <style>
 
         p{
@@ -127,6 +129,7 @@
     </style>
     <body>
 
+
     <!-- Full-width images with number text -->
     <div class="mySlides">
         <div class="numbertext">1 / 6</div>
@@ -188,7 +191,37 @@
             <img class="demo cursor" src="/static/assets/silento.jpg" style="width:100%" onclick="currentSlide(6)" alt="This may be one of the most GLOBALLY popular songs and dances - becuse of the whip dance!">
         </div>
     </div>
+
+    <h3>What do you think of these artists? If you like: Press thumbs up! We will give some songs suggestions :) </h3>
+    <div class="grid-container">
+        <div class="grid-item">
+            <h4>Thoughts on Bruno Mars?</h4>
+            <img src="/static/assets/thumbsup.webp" id="img1" onclick="BrunoThumbsUp()" height="50" width="50">
+            <img src="/static/assets/thumbsdown.webp" id="img2" onclick="BrunoThumbsDown()" height="50" width="50">
+            <img id="brunopic1" src="/static/assets/brunosongs.png/" typeof="png" height="200" width="400" style="visibility:hidden"/>
+            <img id="brunopic2" src="/static/assets/sorrysongs.png/" typeof="png" height="200" width="400" style="visibility:hidden"/>
+        </div>
+
+        <div class="grid-item">
+            <h4>Thoughts on Taylor Swift?</h4>
+            <img src="/static/assets/thumbsup.webp" id="img3" onclick="TaylorThumbsUp()" height="50" width="50">
+            <img src="/static/assets/thumbsdown.webp" id="img4" onclick="TaylorThumbsDown()" height="50" width="50">
+            <img id="taylorpic1" src="/static/assets/taylorsongs.png/" typeof="png" height="200" width="400" style="visibility:hidden"/>
+            <img id="taylorpic2" src="/static/assets/sorrysongs.png/" typeof="png" height="200" width="400" style="visibility:hidden"/>
+        </div>
+
+        <div class="grid-item">
+            <h4>Thoughts on Katy Perry?</h4>
+            <img src="/static/assets/thumbsup.webp" id="img5" onclick="KatyThumbsUp()" height="50" width="50">
+            <img src="/static/assets/thumbsdown.webp" id="img6" onclick="KatyThumbsDown()" height="50" width="50">
+            <img id="katypic1" src="/static/assets/katysongs.png/" typeof="png" typeof="png" height="200" width="400" style="visibility:hidden"/>
+            <img id="katypic2" src="/static/assets/sorrysongs.png/" typeof="png" height="200" width="400" style="visibility:hidden"/>
+        </div>
+
+
     </div>
+    <meta charset="UTF-8">
+    <title>Title</title>
 
     <script>
         var slideIndex = 1;
@@ -219,7 +252,68 @@
             dots[slideIndex-1].className += " active";
             captionText.innerHTML = dots[slideIndex-1].alt;
         }
+
+        function displaySongList(artist, bLike){
+            if(artist == "Bruno"){
+                if (bLike == true) {
+                    document.getElementById('brunopic1').style.visibility="visible";
+                    document.getElementById('brunopic2').style.visibility="hidden";
+
+                } else {
+                    document.getElementById('brunopic2').style.visibility="visible";
+                    document.getElementById('brunopic1').style.visibility="hidden";
+                }
+            }
+
+            if(artist == "Taylor"){
+                if (bLike == true) {
+                    document.getElementById('taylorpic1').style.visibility="visible";
+                    document.getElementById('taylorpic2').style.visibility="hidden";
+
+                } else {
+                    document.getElementById('taylorpic2').style.visibility="visible";
+                    document.getElementById('taylorpic1').style.visibility="hidden";
+
+                }
+            }
+
+            if(artist == "Katy"){
+                if (bLike == true) {
+                    document.getElementById('katypic1').style.visibility="visible";
+                    document.getElementById('katypic2').style.visibility="hidden";
+
+                } else {
+                    document.getElementById('katypic2').style.visibility="visible";
+                    document.getElementById('katypic1').style.visibility="hidden";
+
+                }
+            }
+
+        }
+        function BrunoThumbsUp() {
+            displaySongList("Bruno", true);
+        }
+        function BrunoThumbsDown() {
+            displaySongList("Bruno", false);
+        }
+        function TaylorThumbsUp() {
+            displaySongList("Taylor", true);
+        }
+        function TaylorThumbsDown() {
+            displaySongList("Taylor", false);
+        }
+
+        function KatyThumbsUp() {
+            displaySongList("Katy", true);
+        }
+        function KatyThumbsDown() {
+            displaySongList("Katy", false);
+        }
+
+
+
     </script>
+
 
 
 
