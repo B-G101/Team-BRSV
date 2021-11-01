@@ -86,9 +86,6 @@ def songFavorite():
 @app.route('/Lifechangingsongs/')
 def lifechangingSongs():
     return render_template("LifechangingSongs.html")
-@app.route('/Technicals/')
-def technicals():
-    return render_template("Technicals.html")
 @app.route('/stub/')
 def stub():
     return render_template("technicals/stub.html")
