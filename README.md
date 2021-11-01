@@ -1,6 +1,6 @@
 #Team BRS
-## [Scrum Board](https://github.com/B-G101/Team-BRSV/projects/1)
-## [Github Repository](https://github.com/B-G101/Team-BRSV)
+## [Scrum Board](https://github.com/B-G101/Team-BRS/projects/1)
+## [Github Repository](https://github.com/B-G101/Team-BRS)
 
 ***
 <table id="readmeinformation">
@@ -100,35 +100,33 @@ This minilab is all about guessing songs. Samples of songs from different genres
 
 <tr>
 <td>Riya </td>
-<td>Video: <a href="https://www.youtube.com/watch?v=sSelCclgTX8" target="_blank">Link</a> </td>
+<td>Video: </td>
 <td>
-Ave Score: 6/6 <a href="https://github.com/B-G101/Team-BRSV/issues/26" target="_blank">reviewticket</a> </td>
+
 </td>
 </tr>
 <tr>
 <td> Bria </td>
-<td>Video: <a href="https://youtu.be/X2yNhHmokeo" target="_blank">Link</a></td>
+<td>Video: </td>
 <td>
- Ave Score: 6/6 <a href="https://github.com/B-G101/Team-BRSV/issues/27" target="_blank">reviewticket</a> </td>
-</td>
 
+</td>
 </tr>
 <tr>
 <td> Sreeja </td>
-<td>Video: <a href="https://www.loom.com/embed/bbd128beb8bd4ea8b6a5362b4300ca12" target="_blank">Link</a> </td>
+<td>Video: </td>
 <td>
- Ave Score: 5.75/6 <a href="https://github.com/B-G101/Team-BRSV/issues/25" target="_blank">reviewticket</a> </td>
+
 </td>
 </tr>
 <tr>
 <td> Val </td>
-<td>Video: <a href="https://youtu.be/vJ9NhZnFfHA" target="_blank">Link</a> </td>
+<td>Video: </td>
 <td>
- Ave Score: 4/6 <a href="https://github.com/B-G101/Team-BRSV/issues/24" target="_blank">reviewticket</a> </td>
+
+</td>
 </tr>
-
-##### Sprint 4 Week 7 and 8
-
+## Sprint 4 Week 7 and 8
 <table id="sprint3">
 <tr>
 <tr>Week 8</tr>
