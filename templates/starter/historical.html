@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+{% extends "layouts/base.html" %}
+
+{% block body %}
+    <style>
+        h5 {
+            color: rosybrown;
+            text-align: center;
+
+        }
+
+    </style>
+    <div class="container">
+
+        <div class="center-block" style="margin: 2% 5% 5%; font-family: gilroy,serif;">
+            <div class="col-12" style="text-align: center;">
+                <h1><strong>Random Song</strong></h1>
+                <form action={{url_for('starter.historical')}}>
+                    <button>Historical Songs</button>
+                </form>
+
+            </div>
+
+
+            <!-- Input and Content -->
+            <div class="jumbotron text-left row">
+                <div class="col-md">
+                    <h5 class="setup"><strong >{{historical.historical}}</strong></h5>
+                </div>
+            </div>
+
+        </div>
+
+
+        <table style="margin: 2%">
+            <tr>
+                <th>JSON Data</th>
+            </tr>
+            <tr>
+                <td>{{historical}}</td>
+            </tr>
+        </table>
+
+    </div>
+{% endblock %}

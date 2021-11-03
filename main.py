@@ -117,6 +117,10 @@ def binary():
 def colorcode():
     return render_template("technicals/binary (logic gates)/colorcode.html")
 
+@app.route('/game/')
+def game():
+    return render_template("game.html")
+
 @app.route('/binary/signedaddition/')
 def signedaddition():
     return render_template("technicals/binary (logic gates)/signedaddition.html")

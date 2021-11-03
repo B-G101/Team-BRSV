@@ -1,4 +1,4 @@
-#Team BRS
+#Team BRSV
 ## [Scrum Board](https://github.com/B-G101/Team-BRSV/projects/1)
 ## [Github Repository](https://github.com/B-G101/Team-BRSV)
 
@@ -86,13 +86,20 @@
 </table>
 
 ***
-##Ideation:
-This minilab is all about guessing songs. Samples of songs from different genres will be played to participants, requiring them to select from a list of songs, one of which contains the correct answer. Different difficulties can be selected with various complicating factors, such as the nicheness of the artist, minor distortions to the song, or only shorter snippets being played. Alternatively, the auditory experience could be entirely foregone, and participants would have to guess the song and/or complete lyrics after only being given the lyrics in writing.
+##Project Purpose:
+This website is completely music related! Users can come on this website and get randomly generated songs from a variety of different genres, depeding on what they like. They can get a chance to listen to our favorite songs, and see if any of there favorite songs match up with our favorites. They can view the lifechanging songs of our generation, and can view more song suggestions depending on what they like. Finally, we have a way they can view upcoming concerts, and twitter feeds from music artists, as well as a mini game. Essentially, we wanted our project to encompass all of someone's music needs and fun activities too!
 ***
+
+####Below we have tables that provide a complete timeline of our work and commits over the past few weeks. They are divided into tables by sprints:
+
+# Final Sprint: 
+Week 11:
+
+
 ## Sprint 5 Week 9 and 10!
 <table id="sprint3">
 <tr>
-<tr>Week 9</tr>
+<tr>Week 9/10</tr>
 <th>Person</th>
 <th>Video</th>
 <th>Scores</th>
@@ -103,14 +110,12 @@ This minilab is all about guessing songs. Samples of songs from different genres
 <td>Video: <a href="https://www.youtube.com/watch?v=sSelCclgTX8" target="_blank">Link</a> </td>
 <td>
 Ave Score: 6/6 <a href="https://github.com/B-G101/Team-BRSV/issues/26" target="_blank">reviewticket</a> </td>
-</td>
 </tr>
 <tr>
 <td> Bria </td>
 <td>Video: <a href="https://youtu.be/X2yNhHmokeo" target="_blank">Link</a></td>
 <td>
  Ave Score: 6/6 <a href="https://github.com/B-G101/Team-BRSV/issues/27" target="_blank">reviewticket</a> </td>
-</td>
 
 </tr>
 <tr>
@@ -118,7 +123,6 @@ Ave Score: 6/6 <a href="https://github.com/B-G101/Team-BRSV/issues/26" target="_
 <td>Video: <a href="https://www.loom.com/embed/bbd128beb8bd4ea8b6a5362b4300ca12" target="_blank">Link</a> </td>
 <td>
  Ave Score: 5.75/6 <a href="https://github.com/B-G101/Team-BRSV/issues/25" target="_blank">reviewticket</a> </td>
-</td>
 </tr>
 <tr>
 <td> Val </td>
@@ -126,10 +130,11 @@ Ave Score: 6/6 <a href="https://github.com/B-G101/Team-BRSV/issues/26" target="_
 <td>
  Ave Score: 4/6 <a href="https://github.com/B-G101/Team-BRSV/issues/24" target="_blank">reviewticket</a> </td>
 </tr>
+<table></table>
 
-##### Sprint 4 Week 7 and 8
-
+## Sprint 4 Week 7 and 8
 <table id="sprint3">
+
 <tr>
 <tr>Week 8</tr>
 <th>Job</th>
