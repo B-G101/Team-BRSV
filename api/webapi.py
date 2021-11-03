@@ -55,33 +55,151 @@ song_list = [
     "Best Friend by Saweetie",
     "MONTERO by Lil Nas X",
     "Butterfly Effect by Travis Scott",
+    "Strange Fruit by Billie Holiday",
+    "Smoke on the Water by Deep Purple",
+    "Indian Reservation by The Raiders",
+    "Zombie by The Cranberries",
+    "The Big Bang Theory by The Barenaked Ladies",
+    "Mesopotamia by The B-52's",
+    "Run To The Hills by Iron Maiden",
+    "Oliver's Army by Elvis Costello",
+    "The Trooper by Iron Maiden",
+    "Mister Custer by Larry Verne",
+    "Rasputin by Boney-M",
+    "Enola Gay by Orchestral Manoeuvres In The Dark",
+    "Raised by Wolves by U2",
+    "P.L.U.C.K. by System of a Down",
+    "Brighter Than a Thousand Suns by Iron Maiden",
+    "The Wreck of the Edmund Fitzgerald by Gordon Lightfoot",
+    "The British Are Coming by Weezer",
+    "The Longest Day by Iron Maiden",
+    "The Infanta by The Decemberists",
+    "Mississippi Goddam by Nina Simone",
+    "Battle of New Orleans by Johnny Horton",
+    "Buffalo Soldier by Bob Marley",
+    "American Witch by Rob Zombie",
+    "I Walk the Line by Johnny Cash",
+    "Jolene by Dolly Parton",
+    "Friends in Low Places by Garth Brooks",
+    "Choices by George Jones",
+    "Concrete Angel by Martina McBride",
+    "Kiss an Angel Good Morning Charley Pride",
+    "Where Were You by Alan Jackson",
+    "Live Like You Were Dying by Tim McGraw",
+    "I Hope You Dance by Lee Ann Womack",
+    "Take Me Home Country Roads by John Denver",
+    "Walkin' After Midnight by Patsy Cline",
+    "Breathe by Faith Hill",
+    "Before He Cheats by Carrie Underwood",
+    "Follow Your Arrow by Kacey Musgraves",
+    "Blue Eyes Crying in the Rain by Willie Nelson",
+    "Somebody Like You by Keith Urban",
+    "Devil Went Down to Georgia by Charlie Daniels Band",
+    "You'll Never Know by Mindy McCready",
+    "Whiskey Lullaby by Brad Paisley",
+    "Love Story by Taylor Swift",
+    "Coal Miner’s Daughter by Loretta Lynn",
+    "Goodbye Earl by The Dixie Chicks",
+    "Man! I Feel Like a Woman by Shania Twain",
+    "Cream by Wu-tang Clan",
+    "In da Club by 50 Cent",
+    "Big Pimpin' by Jay Z",
+    "Insane in the Brain by Cypress Hill",
+    "Industry Baby",
+    "Blood on the Leaves by Kanye West",
+    "Monster by Kanye West",
+    "Mrs. Jackson by Outcast",
+    "Straight Outta Compton by NWA",
+    "Jin and Juice by Snoop Dog",
+    "Still Dre by Dr.Dre",
+    "It was a Good Day by Ice Cube",
+    "Dior by Pop Smoke",
+    "Bad and Boujee by Migos",
+    "The Box by Roddy Rich",
+    "The Race by Tay-k",
+    "Boom Boom Pow by Black Eye Peas",
+    "Best Friend by Saweetie",
+    "MONTERO by Lil Nas X",
+    "Butterfly Effect by Travis Scott",
 ]
 
 old_songs = []
 old_list = [
-    {"id":52907687,"name":"Strange Fruit by Billie Holiday","photo":"https://www.youtube.com/watch?v=-DGY9HvChXk"},
-    {"id":35506267,"name":"Smoke on the Water by Deep Purple","photo":"https://www.youtube.com/watch?v=zUwEIt9ez7M"},
-    {"id":16807306,"name":"Indian Reservation by The Raiders","photo":"ndian Reservation by The Raiders"},
-    {"id":63521043,"name":"Zombie by The Cranberries","photo":"https://www.youtube.com/watch?v=6Ejga4kJUts"},
-    {"id":91132400,"name":"The Big Bang Theory by The Barenaked Ladies","photo":"https://www.youtube.com/watch?v=TzhIfN4UQv8"},
-    {"id":74127064,"name":"Mesopotamia by The B-52's","photo":"https://www.youtube.com/watch?v=0FyLcHxbSRk"},
-    {"id":30283700,"name":"Run To The Hills by Iron Maiden","photo":"https://www.youtube.com/watch?v=86URGgqONvA"},
-    {"id":40834926,"name":"Oliver's Army by Elvis Costello","photo":"https://www.youtube.com/watch?v=LrjHz5hrupA&t=30s"},
-    {"id":59676726,"name":"The Trooper by Iron Maiden","photo":"https://www.youtube.com/watch?v=X4bgXH3sJ2Q"},
-    {"id":18959030,"name":"Mister Custer by Larry Verne","photo":"https://www.youtube.com/watch?v=vXuPJNXjlRM"},
-    {"id":19220801,"name":"Rasputin by Boney-M","photo":"https://www.youtube.com/watch?v=16y1AkoZkmQ"},
-    {"id":41880845,"name":"Enola Gay by Orchestral Manoeuvres In The Dark","photo":"https://www.youtube.com/watch?v=d5XJ2GiR6Bo"},
-    {"id":38744009,"name":"Raised by Wolves by U2","photo":"https://www.youtube.com/watch?v=xt0vGieEWFA"},
-    {"id":46032709,"name":"P.L.U.C.K. by System of a Down","photo":"https://www.youtube.com/watch?v=VxVzT0znI8Q"},
-    {"id":63172387,"name":"Brighter Than a Thousand Suns by Iron Maiden","photo":"https://www.youtube.com/watch?v=Cx_yCoPP1EY"},
-    {"id":23127852,"name":"The Wreck of the Edmund Fitzgerald by Gordon Lightfoot","photo":"https://www.youtube.com/watch?v=9vST6hVRj2A"},
-    {"id":91913599,"name":"The British Are Coming by Weezer","photo":"https://www.youtube.com/watch?v=jGUPsdOCZ-A"},
-    {"id":34324158,"name":"The Longest Day by Iron Maiden","photo":"https://www.youtube.com/watch?v=JDCgvcH301A"},
-    {"id":54027019,"name":"The Infanta by The Decemberists","photo":"https://www.youtube.com/watch?v=nFlTBJdpy5A"},
-    {"id":49932101,"name":"Mississippi Goddam by Nina Simone","photo":"https://www.youtube.com/watch?v=LJ25-U3jNWM"},
-    {"id":28040377,"name":"Battle of New Orleans by Johnny Horton","photo":"https://www.youtube.com/watch?v=__uFnEMJqjg"},
-    {"id":34061331,"name":"Buffalo Soldier by Bob Marley","photo":"https://www.youtube.com/watch?v=S5FCdx7Dn0o"},
-    {"id":24724551,"name":"American Witch by Rob Zombie","photo":"https://www.youtube.com/watch?v=MdKXShP_oc4"}
+    "Strange Fruit by Billie Holiday",
+    "Smoke on the Water by Deep Purple",
+    "Indian Reservation by The Raiders",
+    "Zombie by The Cranberries",
+    "The Big Bang Theory by The Barenaked Ladies",
+    "Mesopotamia by The B-52's",
+    "Run To The Hills by Iron Maiden",
+    "Oliver's Army by Elvis Costello",
+    "The Trooper by Iron Maiden",
+    "Mister Custer by Larry Verne",
+    "Rasputin by Boney-M",
+    "Enola Gay by Orchestral Manoeuvres In The Dark",
+    "Raised by Wolves by U2",
+    "P.L.U.C.K. by System of a Down",
+    "Brighter Than a Thousand Suns by Iron Maiden",
+    "The Wreck of the Edmund Fitzgerald by Gordon Lightfoot",
+    "The British Are Coming by Weezer",
+    "The Longest Day by Iron Maiden",
+    "The Infanta by The Decemberists",
+    "Mississippi Goddam by Nina Simone",
+    "Battle of New Orleans by Johnny Horton",
+    "Buffalo Soldier by Bob Marley",
+    "American Witch by Rob Zombie",
+]
+
+
+country_songs = []
+country_list = [
+    "I Walk the Line by Johnny Cash",
+    "Jolene by Dolly Parton",
+    "Friends in Low Places by Garth Brooks",
+    "Choices by George Jones",
+    "Concrete Angel by Martina McBride",
+    "Kiss an Angel Good Morning Charley Pride",
+    "Where Were You by Alan Jackson",
+    "Live Like You Were Dying by Tim McGraw",
+    "I Hope You Dance by Lee Ann Womack",
+    "Take Me Home Country Roads by John Denver",
+    "Walkin' After Midnight by Patsy Cline",
+    "Breathe by Faith Hill",
+    "Before He Cheats by Carrie Underwood",
+    "Follow Your Arrow by Kacey Musgraves",
+    "Blue Eyes Crying in the Rain by Willie Nelson",
+    "Somebody Like You by Keith Urban",
+    "Devil Went Down to Georgia by Charlie Daniels Band",
+    "You'll Never Know by Mindy McCready",
+    "Whiskey Lullaby by Brad Paisley",
+    "Love Story by Taylor Swift",
+    "Coal Miner’s Daughter by Loretta Lynn",
+    "Goodbye Earl by The Dixie Chicks",
+    "Man! I Feel Like a Woman by Shania Twain",
+]
+rap_songs = []
+rap_list = [
+    "Cream by Wu-tang Clan",
+    "In da Club by 50 Cent",
+    "Big Pimpin' by Jay Z",
+    "Insane in the Brain by Cypress Hill",
+    "Industry Baby",
+    "Blood on the Leaves by Kanye West",
+    "Monster by Kanye West",
+    "Mrs. Jackson by Outcast",
+    "Straight Outta Compton by NWA",
+    "Jin and Juice by Snoop Dog",
+    "Still Dre by Dr.Dre",
+    "It was a Good Day by Ice Cube",
+    "Dior by Pop Smoke",
+    "Bad and Boujee by Migos",
+    "The Box by Roddy Rich",
+    "The Race by Tay-k",
+    "Boom Boom Pow by Black Eye Peas",
+    "Best Friend by Saweetie",
+    "MONTERO by Lil Nas X",
+    "Butterfly Effect by Travis Scott",
+
 ]
 def _find_next_id():
     return max(songs["id"] for song in songs) + 1
@@ -97,6 +215,18 @@ def _init_oldsongs():
     id = 1
     for song in old_list:
         old_songs.append({"id": id, "song": song,})
+        id += 1
+
+def _init_countrysongs():
+    id = 1
+    for song in country_list:
+        country_songs.append({"id": id, "song": song,})
+        id += 1
+
+def _init_rapsongs():
+    id = 1
+    for song in rap_list:
+        rap_songs.append({"id": id, "song": song,})
         id += 1
 
 @api_bp.route('/song')
@@ -124,3 +254,15 @@ def get_oldsong():
     if len(old_songs) == 0:
         _init_oldsongs();
     return jsonify(random.choice(old_songs))
+
+@api_bp.route('/rap')
+def get_rap():
+    if len(rap_songs) == 0:
+        _init_rapsongs();
+    return jsonify(random.choice(rap_songs))
+
+@api_bp.route('/countrytunes')
+def get_countrysong():
+    if len(country_songs) == 0:
+        _init_countrysongs();
+    return jsonify(random.choice(country_songs))
