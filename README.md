@@ -94,6 +94,52 @@ This website is completely music related! Users can come on this website and get
 
 # Final Sprint: 
 Week 11:
+<table id="sprint1">
+<tr>
+<tr>Week 1</tr>
+<th>Job</th>
+<th>Person Assigned</th>
+<th>Commits</th>
+</tr>
+
+<tr>
+<td>Scrum Master + random gen + like button</td>
+<td>Riya</td>
+<td>
+<a href="https://github.com/B-G101/Team-BRSV/commit/0efe1f134c0d03ce68d20e85cb0e2493f7e304c5" target="_blank">Conditional</a><br>
+<a href="https://github.com/B-G101/Team-BRSV/commit/c9eb1d190546e884b6a178821412b301752daba4" target="_blank">Random Gen</a><br>
+
+
+</td>
+</tr>
+
+<tr>
+<td>Concert API + formatting</td>
+<td>Bria</td>
+<td>
+<a href="https://github.com/B-G101/Team-BRSV/commit/d7604970fe46b9b74cba8e6d9212a2a2bcc6ed7a" target="_blank">Concert</a><br>
+<a href="https://github.com/B-G101/Team-BRSV/commit/afcad9d8516c649d4e9cd4c41c32713850200885" target="_blank">Format</a><br>
+</td>
+</tr>
+
+<tr>
+<td>Album Gallery Redesign</td>
+<td>Sreeja</td>
+<td><a href="https://github.com/B-G101/Team-BRSV/commit/677df1ddca11d5791a05bbca3f9fbb4d436f96d2" target="_blank">Gallery plus Song</a><br>
+<a href="" target="_blank"></a><br>
+</td>
+</tr>
+
+<tr>
+<td>Twitter api</td>
+<td>Valerie</td>
+<td>
+<a href="https://github.com/B-G101/Team-BRSV/commit/c37b85b1d2db1ea9e53995d0e4f735cfc8e8ec58" target="_blank">Twitter</a><br>
+</td>
+</tr>
+</table>
+
+
 
 
 ## Sprint 5 Week 9 and 10!
