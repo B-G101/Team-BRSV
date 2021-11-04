@@ -1,0 +1,20 @@
+<!-- Extending the project layout, as this file will do minor customizations -->
+{% extends "layouts/base.html" %}
+
+<!-- Setting up variables to customize "project" details to be specific to index page -->
+
+{% block body %}
+
+<table>
+<th>
+    <form action="/starter/concerts" id="concertz" method="POST" >
+        <label for="concertz">Search for a song</label>
+        <input name="concertz" id="concertz">
+        <input type="submit" value="Click to enter">
+        {{fact}} <br>
+    </form>
+</th>
+
+</table>
+
+{% endblock %}

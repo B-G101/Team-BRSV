@@ -1,9 +1,10 @@
 from flask import Flask, render_template, request, url_for, redirect
+
+from shazam import song
 from templates.technicals.image import image_data
 from pathlib import Path
 from api.webapi import api_bp
 from starter import app_starter
-
 
 app = Flask(__name__)
 
@@ -121,10 +122,21 @@ def colorcode():
 def signedaddition():
     return render_template("technicals/binary (logic gates)/signedaddition.html")
 
-@app.route('/concerts/')
-def concerts():
-    return render_template("concerts.html")
+@app.route('/starter/concerts', methods=['GET', 'POST'])
+def concertsapi():
+    number = " "
+    if request.form:
+        song_given = request.form.get("concertz")
+        number = song(song_given)
+        if len(song_given) != 0:  # input field has content
+            print("Please enter an input")
+        print(number)
+
+    return render_template("starter/concerts.html", fact=number)
+
 
 # runs the application on the development server
+
+
 if __name__ == "__main__":
     app.run(debug=True)
