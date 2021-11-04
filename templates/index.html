@@ -44,38 +44,6 @@
                 }
             </style>
         </head>
-        <script type = "text/javascript">
-            function gray(imgObj) {
-                var canvas = document.createElement('canvas');
-                var canvasContext = canvas.getContext('2d');
-
-                var imgW = imgObj.width;
-                var imgH = imgObj.height;
-                canvas.width = imgW;
-                canvas.height = imgH;
-
-                canvasContext.drawImage(imgObj, 0, 0);
-                var imgPixels = canvasContext.getImageData(0, 0, imgW, imgH);
-
-                for(var y = 0; y < imgPixels.height; y++){
-                    for(var x = 0; x < imgPixels.width; x++){
-                        var i = (y * 4) * imgPixels.width + x * 4;
-                        var avg = (imgPixels.data[i] + imgPixels.data[i + 1] + imgPixels.data[i + 2]) / 3;
-                        imgPixels.data[i] = avg;
-                        imgPixels.data[i + 1] = avg;
-                        imgPixels.data[i + 2] = avg;
-                    }
-                }
-                canvasContext.putImageData(imgPixels, 0, 0, 0, 0, imgPixels.width, imgPixels.height);
-                return canvas.toDataURL();
-            }
-            function toggleGrayScale() {
-                var allImages = document.getElementsByTagName('img');
-                for(var i = 0; i < allImages.length ; i++) {
-                    gray(allImages[i]);
-                }
-            }
-        </script>
 
     <body>
 
@@ -204,7 +172,7 @@
         <audio id="audio7" src="/static/audio/bcbc-be-together-official-track_dJJVzKV7.mp3"></audio>
     </div>
 
-    <div class = "center" id="details" class="visible">Album Info...</div>
+    <div class = "center" id="details" class="visible"></div>
 
 
     <style>
@@ -220,7 +188,7 @@
         .center {
             margin: auto;
             width: 60%;
-            border: 5px solid #FFFF00;
+            border: 1px solid #44312b;
             padding: 10px;
         }
     </style>
@@ -239,6 +207,9 @@
 
 
     <style>
+        *{
+            font-family: Ebrima
+        }
         .button {
             background-color: rosybrown; /* Green */
             border: none;
@@ -252,41 +223,24 @@
             transition-duration: 0.2s;
         }
 
-        .button1 {padding: 14px 40px; width: 32%}
-        .button2 {padding: 14px 40px; width: 34%}
-        .button3 {padding: 14px 40px; width: 32%}
+        .button1 {padding: 14px 40px; width: 23%}
+        .button2 {padding: 14px 40px; width: 23%}
+        .button3 {padding: 14px 40px; width: 23%}
+        .button4 {padding: 14px 40px; width: 23%}
 
         .button:hover {
-            background-color: white;
-            color: black;
+            background-color: #f9ece7;
+            color: #44312b;
         }
 
     </style>
+    <div class="col-md-12 text-center">
     <a class="button button1" href={{ url_for('starter.song') }}>Random Song Generator</a>
     <a class="button button2" href={{ url_for('lifechangingSongs') }}>Life Changing Songs</a>
     <a class="button button3" href={{ url_for('favorites') }}>Favorites</a>
-
-    <style>
-        .button {
-            border: none;
-            color: white;
-            padding: 15px 32px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
-            margin: 4px 2px;
-            cursor: pointer;
-        }
-        .button4 {background-color: #808080;}
-        .button4 {padding: 14px 40px; width: 98%}
-
-    </style>
-
-    <form>
-
-    </form>
-
+    <a class="button button4" href="starter/concerts.html">Song Search</a>
+    </div>
+    </body>
 {% endblock %}
 
 {% block background %}

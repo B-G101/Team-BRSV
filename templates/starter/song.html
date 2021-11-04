@@ -2,42 +2,56 @@
 {% extends "layouts/base.html" %}
 
 {% block body %}
+    <head><link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"></head>
    <style>
-   h5 {
+   h3 {
        color: rosybrown;
        text-align: center;
 
    }
+   .navitem {
+       float: left;
+
+   }
+   .container {
+       margin-right: auto;
+       margin-left: auto;
+   }
+
    </style>
+    <div class="relative">
     <div class="container">
-        <div class="center-block" style="margin: 2% 5% 5%; font-family: gilroy,serif;">
+        <div class="center-block" style="margin: 2% 20% 5%;">
             <div class="col-12" style="text-align: center;">
-                <h2><strong>Random Song</strong></h2>
+                <h2><strong>Generate a Random Song</strong></h2>
                 <form action={{url_for('starter.song')}}>
-                    <button> Random Pick!</button>
+                    <button class="navitem"> Completely Random Pick!</button>
                 </form>
                 <form action={{url_for('starter.oldisgold')}}>
-                    <button> Old is Gold! </button>
+                    <button class="navitem"> Old is Gold! </button>
                 </form>
-                    <form action={{url_for('starter.countrytunes')}}>
-                        <button> Country tunes </button>
-                    </form>
+                <form action={{url_for('starter.countrytunes')}}>
+                    <button class="navitem"> Country tunes </button>
+                </form>
                 <form action={{url_for('starter.rap')}}>
-                    <button> Rap! </button>
+                    <button class="navitem"> Rap! </button>
                 </form>
             </div>
+        </div>
 
             <!-- Input and Content -->
-            <div class="jumbotron text-left row">
-                <div class="col-md">
-                    <h5 class="setup"><strong >{{song.song}}</strong></h5>
+            <div class="w3-container">
+                <div class="w3-panel w3-border w3-sand w3-border-brown w3-hover-border-pale-red">
+                    <div class="col-md">
+                        <h3 class="setup"><strong >{{song.song}}</strong></h3>
+                    </div>
                 </div>
             </div>
 
         </div>
 
 
-        <table style="margin: 2%">
+        <table style="margin: 20%">
             <tr>
                 <th>JSON Data</th>
             </tr>
