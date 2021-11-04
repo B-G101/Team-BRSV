@@ -10,29 +10,41 @@
 {% block body %}
 
     <div class="w3-container">
-        <h1 class="w3-center w3-animate-top">Our Favorite Songs!</h1>
+        <h1 class="w3-center w3-animate-top">All things favorites!</h1>
     </div>
 
-    <div class="center-block" style="margin: 2% 5% 5%; text-align:left; font-family: gilroy,serif;">
+    <div class="parent flex-parent">
+        <div class="child flex-child">
 
-        <div class="col-12">
-            <h5>Your Favorite Song is, {{fname}}!</h5>
+                <h3>Your Favorite Song is, {{fname}}!</h3>
+
+                <form action="/favoriteSong" id="favoriteSong" method="POST" >
+                    <label for="fname">What's your favorite song? </label>
+                    <input name="fname" id="fname">
+                    <input type="submit" value="Click to enter">
+                </form>
         </div>
 
-        <div class="col-12">
-            <form action="/favoriteSong" id="favoriteSong" method="POST" >
-                <label for="fname">What's your favorite song? </label>
-                <input name="fname" id="fname">
+        <div class="child flex-child">
+            <h3>Do we like your song?</h3>
+            <p>Note: Only type the name of the song with capitals</p>
+
+        <p hidden id="getMe">{{ gname }}</p>
+            <form action="/songFavorite" id="songFavorite" method="POST" >
+                <label for="gname">Enter a song</label>
+                <input name="gname" id="gname">
                 <input type="submit" value="Click to enter">
             </form>
+            <h5 id="changeMe"></h5>
         </div>
+    </div>
 
+<br>
+    <br>
+    <br>
         <div class="col-12">
             <img  src="/static/assets/favsongs.png" alt="Python Flask" style="height: 400px" class="center" >
         </div>
-
-    </div>
-
 
 
     <script>
@@ -82,8 +94,18 @@
             margin-right: auto;
             width: 50%;
         }
+        .flex-parent{
+            display: flex;
+        }
+        .flex-child{
+            flex: 1;
+        }
     </style>
 
+    <br>
+    <br>
+
+    <h3 style="text-align: center">Our Personal Favorite Songs of All Time</h3>
     <div class="grid-container">
         <div class="grid-item">
             <img src="/static/assets/10.png" id="img1" onclick="play1()" height="270" width="480">
@@ -107,57 +129,39 @@
     </div>
 
 
-    <div>
-    <h3>Do we like your song?</h3>
-    <p>Note: Only type the name of the song with capitals</p>
-    </div>
-    <p hidden id="getMe">{{ gname }}</p>
-    <div class="col-12">
-        <form action="/songFavorite" id="songFavorite" method="POST" >
-            <label for="gname">Enter a song</label>
-            <input name="gname" id="gname">
-            <input type="submit" value="Click to enter">
-        </form>
-    </div>
 
-    <h3 id="changeMe"></h3>
 
     <script>
     const choice = document.getElementById("getMe").innerHTML;
-    const musics = ['Story Of My Life','Good 4 U', 'Deja Vu', 'Happier Than Ever'];
-    musics.forEach(function (eggFace);
-
-    function eggface (music, index, arr){
-       if (music === choice) {
-           greeting = "Lets goo"
-       }
-       else {
-           greeting = "no"
-       }
+    let music = ['Story Of My Life','Good 4 U', 'Deja Vu', 'Happier Than Ever'];
+    for (let i = 0; i < music.length; i++) {
+        if (music[i] === choice) {
+            console.log("yuh")
+            greeting = "We Love that Song"
+        } else {
+            greeting = "Not our Favorite :("
+        }
     }
     document.getElementById("changeMe").innerHTML = greeting;
 
+  //  music.forEach(function (eggFace);
+
+    //function eggface (music){
+       //if (music === choice) {
+      //     greeting = "Lets goo"
+       //}
+       //else {
+           //greeting = "no"
+       //}
+    //}
 
 
-    //for (let i = 0; i < music.length; i++) {
-        //choice = document.getElementById("getMe").innerHTML;
-        //if (music[i] === choice) {
-            //console.log("yuh")
-          //  greeting = "Lets goo"
-        //} else {
-      //      greeting = "no"
-    //    }
-  //  }
 
 
 
 
     //})
 
-    let ranks = ['A', 'B', 'C'];
-    for (let i = 0; i < ranks.length; i++) {
-        console.log(ranks[i]);
-    }
 
     </script>
 
