@@ -1,0 +1,42 @@
+<!-- Extending the project layout, as this file will do minor customizations -->
+{% extends "layouts/base.html" %}
+
+<!-- Setting up variables to customize "project" details to be specific to index page -->
+{% set project = "Home" %}
+{% set overview = "https://nighthawkcodingsociety.com/projectsearch/details/Flask%20Portfolio%20Starter" %}
+{% set repo = "https://github.com/nighthawkcoders/flask_portfolio/" %}
+
+{% block body %}
+
+
+
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+
+    <script>
+        setInterval(function(){ alert("Popup window!"); }, 100000);
+        var timeleft = 10;
+        var downloadTimer = setInterval(function(){
+            if(timeleft <= 0){
+                clearInterval(downloadTimer);
+                document.getElementById("countdown").innerHTML = "Finished";
+            } else {
+                document.getElementById("countdown").innerHTML = timeleft + " seconds remaining";
+            }
+            timeleft -= 1;
+        }, 1000);
+
+
+    </script>
+
+    <div id="countdown"></div>
+
+
+
+{% endblock %}
+{% block background %}
+{% endblock %}
+
+
+</div>
