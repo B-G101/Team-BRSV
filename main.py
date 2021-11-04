@@ -66,6 +66,9 @@ def aboutus():
 @app.route('/favorites/')
 def favorites():
     return render_template("favorites.html")
+@app.route('/twitter/')
+def twitter():
+    return render_template("twitter.html")
 @app.route('/favoriteSong', methods=['GET', 'POST'])
 def favoriteSong():
     # changed greet function for favorites.htm;
