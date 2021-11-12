@@ -1,4 +1,4 @@
-#Team BRSV
+##Team BRSV
 ## [Scrum Board](https://github.com/B-G101/Team-BRSV/projects/1)
 ## [Github Repository](https://github.com/B-G101/Team-BRSV)
 
@@ -90,7 +90,7 @@
 This website is completely music related! Users can come on this website and get randomly generated songs from a variety of different genres, depeding on what they like. They can get a chance to listen to our favorite songs, and see if any of there favorite songs match up with our favorites. They can view the lifechanging songs of our generation, and can view more song suggestions depending on what they like. Finally, we have a way they can view upcoming concerts, and twitter feeds from music artists, as well as a mini game. Essentially, we wanted our project to encompass all of someone's music needs and fun activities too!
 ***
 
-####Below we have tables that provide a complete timeline of our work and commits over the past few weeks. They are divided into tables by sprints:
+###Below we have tables that provide a complete timeline of our work and commits over the past few weeks. They are divided into tables by sprints:
 
 # Final Sprint:
 Week 13:
