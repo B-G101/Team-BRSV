@@ -92,6 +92,65 @@ This website is completely music related! Users can come on this website and get
 
 ####Below we have tables that provide a complete timeline of our work and commits over the past few weeks. They are divided into tables by sprints:
 
+# Final Sprint:
+Week 13:
+<table id="sprint13">
+<tr>
+<th>Job from this Week</th>
+<th>Person Assigned</th>
+<th>Individual Links</th>
+</tr>
+
+<tr>
+<td>N@TM Capturing the Moment</td>
+<td>Sreeja, Riya, Bria, and Val</td>
+<td>
+<a href="https://docs.google.com/presentation/d/1aqZ8J1Wty4Ch6uGew503bMCxaE2Varhh1AEFdpICTO8/edit?usp=sharing" target="_blank">Link</a><br>
+</td>
+</tr>
+
+<tr>
+<td>N@TM Reflection/Retrospective Collaborative</td>
+<td>Sreeja, Riya, Bria, and Val</td>
+<td>
+<a href="https://docs.google.com/presentation/d/1aqZ8J1Wty4Ch6uGew503bMCxaE2Varhh1AEFdpICTO8/edit#slide=id.g100efd33714_9_0" target="_blank">Link</a><br>
+</td>
+</tr>
+
+<tr>
+<td>Riya's Individual GeekBot Response</td>
+<td>Riya</td>
+<td>
+<a href="https://docs.google.com/document/d/1dfF7f6u1v5AF3MKQTq2_82rlR3a0Qe4P5md6iLnGroM/edit#bookmark=id.83vj7kt8dls1" target="_blank">Link</a><br>
+</td>
+</tr>
+
+<tr>
+<td>Bria's Individual GeekBot Response</td>
+<td>Bria</td>
+<td>
+<a href="https://docs.google.com/document/d/1dfF7f6u1v5AF3MKQTq2_82rlR3a0Qe4P5md6iLnGroM/edit#bookmark=id.sdz1pvikj7x" target="_blank">Link</a><br>
+</td>
+</tr>
+
+<tr>
+<td>Val's Individual GeekBot Response</td>
+<td>Val</td>
+<td>
+<a href="https://docs.google.com/document/d/1bEQV3v4W8SFTRdCUL4dlvi_KDL2U9QlT8kjz4BUet9w/edit#bookmark=id.f1f360zayt0e" target="_blank">Link</a><br>
+</td>
+</tr>
+
+<tr>
+<td>Sreeja's Individual GeekBot Response</td>
+<td>Sreeja</td>
+<td>
+<a href="https://docs.google.com/document/d/1bEQV3v4W8SFTRdCUL4dlvi_KDL2U9QlT8kjz4BUet9w/edit#bookmark=id.mbymvjl25rcu" target="_blank">Link</a><br>
+</td>
+</tr>
+</table>
+
+
 # Final Sprint: 
 Week 11:
 <table id="sprint1">
