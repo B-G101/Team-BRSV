@@ -8,8 +8,11 @@ This website is completely music related! Users can come on this website and get
 
 ***
 ## TOC
+[Contributers Information](#readmeinfo)  
+[Finals Week](#emphasis)
 
 ***
+<a name="readmeinfo"/>
 <table id="readmeinformation">
 
 <tr>
