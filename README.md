@@ -9,7 +9,13 @@ This website is completely music related! Users can come on this website and get
 ***
 ## TOC
 [Contributers Information](#readmeinfo)  
-[Finals Week](#emphasis)
+[Finals Week](#finals)
+[Sprint 6: Week 11 and 12](#finalsprint)  
+[Sprint 5: Week 9 and 10](#sprint5)
+[Sprint 4: Week 7 and 8](#sprint4)  
+[Sprint 3: Week 5 and 6](#sprint3)
+[Sprint 2: Week 3 and 4](#sprint2)  
+[Sprint 1: Week 1 and 2](#sprint1)
 
 ***
 <a name="readmeinfo"/>
@@ -98,7 +104,7 @@ This website is completely music related! Users can come on this website and get
 ***
 
 ## Below we have tables that provide a complete timeline of our work and commits over the past few weeks. They are divided into tables by sprints:
-
+<a name="finals"/>
 # FINALS WEEK:
 <table id="sprint13">
 <tr>
@@ -156,7 +162,7 @@ This website is completely music related! Users can come on this website and get
 </tr>
 </table>
 
-
+<a name="finalsprint"/>
 # Final Sprint: 
 Week 11:
 <table id="sprint1">
@@ -206,7 +212,7 @@ Week 11:
 
 
 
-
+<a name="sprint5"/>
 ## Sprint 5 Week 9 and 10!
 <table id="sprint3">
 <tr>
@@ -243,6 +249,7 @@ Ave Score: 6/6 <a href="https://github.com/B-G101/Team-BRSV/issues/26" target="_
 </tr>
 <table></table>
 
+<a name="sprint4"/>
 ## Sprint 4 Week 7 and 8
 <table id="sprint3">
 
@@ -368,6 +375,7 @@ Ave Score: 6/6 <a href="https://github.com/B-G101/Team-BRSV/issues/26" target="_
 </tr>
 </table>
 
+<a name="sprint3"/>
 ## Sprint 3 Week 5 and 6
 <table id="sprint3">
 <tr>
@@ -421,7 +429,7 @@ Ave Score: 6/6 <a href="https://github.com/B-G101/Team-BRSV/issues/26" target="_
 </tr>
 </table>
 
-
+<a name="sprint2"/>
 ## Sprint 2 Week 3 and 4
 <table id="sprint2wk3">
 <tr>
@@ -471,6 +479,7 @@ Ave Score: 6/6 <a href="https://github.com/B-G101/Team-BRSV/issues/26" target="_
 
 
 ****
+<a name="sprint1"/>
 ## Sprint 1 Week 1 and 2
 <table id="sprint1">
 <tr>
