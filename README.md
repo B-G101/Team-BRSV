@@ -92,8 +92,7 @@ This website is completely music related! Users can come on this website and get
 
 ###Below we have tables that provide a complete timeline of our work and commits over the past few weeks. They are divided into tables by sprints:
 
-# Final Sprint:
-Week 13:
+# FINALS WEEK:
 <table id="sprint13">
 <tr>
 <th>Job from this Week</th>
