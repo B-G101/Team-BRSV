@@ -7,6 +7,9 @@ This website is completely music related! Users can come on this website and get
 ## [Github Repository](https://github.com/B-G101/Team-BRSV)
 
 ***
+## TOC
+
+***
 <table id="readmeinformation">
 
 <tr>
@@ -416,7 +419,7 @@ Ave Score: 6/6 <a href="https://github.com/B-G101/Team-BRSV/issues/26" target="_
 </table>
 
 
-## Sprint 2 Week 3 and 4`
+## Sprint 2 Week 3 and 4
 <table id="sprint2wk3">
 <tr>
 <tr>Week 3: Prototype Layout</tr>
