@@ -13,25 +13,27 @@
                 background: #bc8f8f;
             }
 
-            .sneaky {
-                width: 20%;
-                top: 50%;
-                position: relative;
-                left: 40%;
-                border-bottom: 5px #000000;
-                overflow: hidden;
-                animation: animate 5s linear forwards;
-            }
 
 
-            .sneaky h1 {
-                color: #000000;
-            }
         </style>
     </head>
 
 </head>
 <body>
+<h2>
+    Check out the latest tweets from your favorite music creators!
+</h2>
+
+<button onclick="showTweet()">Show tweets!</button>
+
+<script>
+    function showTweet() {
+        const execSync = require('child_process').execSync;
+        import { execSync } from 'child_process';
+        const output = execSync("curl --request GET 'https://api.twitter.com/2/users/2150327072/tweets' --header 'Authorization: Bearer AAAAAAAAAAAAAAAAAAAAAPWmVAEAAAAAMEiAEe%2BMjldaoVlSHaW7d34sy14%3DYhZhEx9hUnUNSFa3XZZBBo7dqJ1hgzdBr8PprxUFb6izm9loki'", { encoding: 'utf-8' });
+
+    }
+</script>
 
 </body>
 {% endblock %}

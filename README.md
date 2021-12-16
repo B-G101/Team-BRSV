@@ -1,8 +1,24 @@
-#Team BRSV
+# Team BRSV
+***
+## Project Purpose:
+This website is completely music related! Users can come on this website and get randomly generated songs from a variety of different genres, depeding on what they like. They can get a chance to listen to our favorite songs, and see if any of there favorite songs match up with our favorites. They can view the lifechanging songs of our generation, and can view more song suggestions depending on what they like. Finally, we have a way they can view upcoming concerts, and twitter feeds from music artists, as well as a mini game. Essentially, we wanted our project to encompass all of someone's music needs and fun activities too!
+***
 ## [Scrum Board](https://github.com/B-G101/Team-BRSV/projects/1)
 ## [Github Repository](https://github.com/B-G101/Team-BRSV)
 
 ***
+## TOC
+[Contributers Information](#readmeinfo)  
+[Finals Week](#finals)
+[Sprint 6: Week 11 and 12](#finalsprint)  
+[Sprint 5: Week 9 and 10](#sprint5)
+[Sprint 4: Week 7 and 8](#sprint4)  
+[Sprint 3: Week 5 and 6](#sprint3)
+[Sprint 2: Week 3 and 4](#sprint2)  
+[Sprint 1: Week 1 and 2](#sprint1)
+
+***
+<a name="readmeinfo"/>
 <table id="readmeinformation">
 
 <tr>
@@ -86,12 +102,67 @@
 </table>
 
 ***
-##Project Purpose:
-This website is completely music related! Users can come on this website and get randomly generated songs from a variety of different genres, depeding on what they like. They can get a chance to listen to our favorite songs, and see if any of there favorite songs match up with our favorites. They can view the lifechanging songs of our generation, and can view more song suggestions depending on what they like. Finally, we have a way they can view upcoming concerts, and twitter feeds from music artists, as well as a mini game. Essentially, we wanted our project to encompass all of someone's music needs and fun activities too!
-***
 
-####Below we have tables that provide a complete timeline of our work and commits over the past few weeks. They are divided into tables by sprints:
+## Below we have tables that provide a complete timeline of our work and commits over the past few weeks. They are divided into tables by sprints:
+<a name="finals"/>
+# FINALS WEEK:
+<table id="sprint13">
+<tr>
+<th>Job from this Week</th>
+<th>Person Assigned</th>
+<th>Individual Links</th>
+</tr>
 
+<tr>
+<td>N@TM Capturing the Moment</td>
+<td>Sreeja, Riya, Bria, and Val</td>
+<td>
+<a href="https://docs.google.com/presentation/d/1aqZ8J1Wty4Ch6uGew503bMCxaE2Varhh1AEFdpICTO8/edit?usp=sharing" target="_blank">Link</a><br>
+</td>
+</tr>
+
+<tr>
+<td>N@TM Reflection/Retrospective Collaborative</td>
+<td>Sreeja, Riya, Bria, and Val</td>
+<td>
+<a href="https://docs.google.com/presentation/d/1aqZ8J1Wty4Ch6uGew503bMCxaE2Varhh1AEFdpICTO8/edit#slide=id.g100efd33714_9_0" target="_blank">Link</a><br>
+</td>
+</tr>
+
+<tr>
+<td>Riya's Individual GeekBot Response</td>
+<td>Riya</td>
+<td>
+<a href="https://docs.google.com/document/d/1dfF7f6u1v5AF3MKQTq2_82rlR3a0Qe4P5md6iLnGroM/edit#bookmark=id.83vj7kt8dls1" target="_blank">Link</a><br>
+</td>
+</tr>
+
+<tr>
+<td>Bria's Individual GeekBot Response</td>
+<td>Bria</td>
+<td>
+<a href="https://docs.google.com/document/d/1dfF7f6u1v5AF3MKQTq2_82rlR3a0Qe4P5md6iLnGroM/edit#bookmark=id.sdz1pvikj7x" target="_blank">Link</a><br>
+</td>
+</tr>
+
+<tr>
+<td>Val's Individual GeekBot Response</td>
+<td>Val</td>
+<td>
+<a href="https://docs.google.com/document/d/1bEQV3v4W8SFTRdCUL4dlvi_KDL2U9QlT8kjz4BUet9w/edit#bookmark=id.f1f360zayt0e" target="_blank">Link</a><br>
+</td>
+</tr>
+
+<tr>
+<td>Sreeja's Individual GeekBot Response</td>
+<td>Sreeja</td>
+<td>
+<a href="https://docs.google.com/document/d/1bEQV3v4W8SFTRdCUL4dlvi_KDL2U9QlT8kjz4BUet9w/edit#bookmark=id.mbymvjl25rcu" target="_blank">Link</a><br>
+</td>
+</tr>
+</table>
+
+<a name="finalsprint"/>
 # Final Sprint: 
 Week 11:
 <table id="sprint1">
@@ -141,7 +212,7 @@ Week 11:
 
 
 
-
+<a name="sprint5"/>
 ## Sprint 5 Week 9 and 10!
 <table id="sprint3">
 <tr>
@@ -178,6 +249,7 @@ Ave Score: 6/6 <a href="https://github.com/B-G101/Team-BRSV/issues/26" target="_
 </tr>
 <table></table>
 
+<a name="sprint4"/>
 ## Sprint 4 Week 7 and 8
 <table id="sprint3">
 
@@ -303,6 +375,7 @@ Ave Score: 6/6 <a href="https://github.com/B-G101/Team-BRSV/issues/26" target="_
 </tr>
 </table>
 
+<a name="sprint3"/>
 ## Sprint 3 Week 5 and 6
 <table id="sprint3">
 <tr>
@@ -356,8 +429,8 @@ Ave Score: 6/6 <a href="https://github.com/B-G101/Team-BRSV/issues/26" target="_
 </tr>
 </table>
 
-
-## Sprint 2 Week 3 and 4`
+<a name="sprint2"/>
+## Sprint 2 Week 3 and 4
 <table id="sprint2wk3">
 <tr>
 <tr>Week 3: Prototype Layout</tr>
@@ -406,6 +479,7 @@ Ave Score: 6/6 <a href="https://github.com/B-G101/Team-BRSV/issues/26" target="_
 
 
 ****
+<a name="sprint1"/>
 ## Sprint 1 Week 1 and 2
 <table id="sprint1">
 <tr>
